@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//Primero siempre van las variables
+
+@import './variables/colores';
+@import './variables/typo';
+@import './variables/tamaños';
+@import './variables/extend';
+
+@import './sections/header';
+@import './sections/mainIndex'

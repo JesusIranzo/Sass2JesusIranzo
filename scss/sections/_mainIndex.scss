@@ -1,0 +1,29 @@
+.principal{
+    max-width: 100vw;
+    @extend %estiloPrincipal
+}
+.secundario{
+    max-width: 50% - 15%;
+    h3{
+        @include estiloTexto (50px, $rosa) ;
+    }
+    p{
+        @include estiloTexto (18px, $violeta) ;
+    }
+}
+
+//CONDICIONALES
+
+$saludo: 35;
+
+.principal__h2{
+    @if ($saludo > 50) {
+        color: $rosa;
+    } @if ($saludo < 65) {
+        color: $violeta;
+    }
+    @else{
+        background-color: black;
+        color: $menta;
+    }
+}

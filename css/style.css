@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;0,900;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.principal {
+  background-color: #55D6BE;
+  color: #7D5BA6;
+  font-family: "Raleway", sans-serif;
+  text-align: center; }
+  .principal p {
+    max-width: 60vw;
+    margin: 0 auto; }
+
+.header {
+  background-color: #7D5BA6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__img {
+    margin-left: 1rem; }
+  .header__ul {
+    display: flex;
+    list-style: none; }
+    .header__ul--active {
+      font-weight: 900; }
+    .header__ul li {
+      padding: 1rem; }
+      .header__ul li a {
+        color: #ACFCD9;
+        text-decoration: none;
+        font-family: "Raleway", sans-serif; }
+
+.principal {
+  max-width: 100vw; }
+
+.secundario {
+  max-width: 35%; }
+  .secundario h3 {
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #FC6471; }
+  .secundario p {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #7D5BA6; }
+
+.principal__h2 {
+  color: #7D5BA6; }
